@@ -1,4 +1,5 @@
 {
+	"Account": "Konto",
 	"Subscribe": "Prenumerera",
 	"Subscribe to {blogtitle}": "Prenumerera på {blogtitle}",
 	"Subscribed!": "Prenumererad!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Få de senaste artiklarna levererade direkt till din inkorg",
 	"Go to the front page": "Go to the front page",
 	"Latest Posts": "Senaste artiklarna",
-	"Message:": "Message:",
+	"Message:": "Meddelande:",
 	"<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Fler artiklar</a> av {name}",
 	"No posts": "Inga artiklar",
 	"Read <a href='{url}'>more posts</a> by this author": "Läs <a href='{url}'>mer artiklar</a> av denna författare",

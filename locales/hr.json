@@ -1,4 +1,5 @@
 {
+	"Account": "Račun",
 	"Subscribe": "Pretplati se",
 	"Subscribe to {blogtitle}": "Pretplati se na {blogtitle}",
 	"Subscribed!": "Pretplaćen!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Najnoviji postovi će biti dostavljeni u tvoj inbox",
 	"Go to the front page": "Go to the front page",
 	"Latest Posts": "Noviji Postovi",
-	"Message:": "Message:",
+	"Message:": "Poruka:",
 	"<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Više postova</a> od {name}",
 	"No posts": "Nema postova",
 	"Read <a href='{url}'>more posts</a> by this author": "Pročitaj <a href='{url}'>više postova</a> od ovog autora",

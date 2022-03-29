@@ -1,4 +1,5 @@
 {
+	"Account": "Regnskap",
 	"Subscribe": "Abbonér",
 	"Subscribe to {blogtitle}": "Abbonér på {blogtitle}",
 	"Subscribed!": "Abbonert!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Få siste innlegg levert rett til din innboks",
 	"Go to the front page": "Go to the front page",
 	"Latest Posts": "Siste innlegg",
-	"Message:": "Message:",
+	"Message:": "Beskjed:",
 	"<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Flere innlegg</a> av {name}",
 	"No posts": "Ingen innlegg",
 	"Read <a href='{url}'>more posts</a> by this author": "Les <a href='{url}'>flere innlegg</a> av denne forfatteren",

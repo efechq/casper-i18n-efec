@@ -1,4 +1,5 @@
 {
+	"Account": "Cont",
 	"Subscribe": "Înscrie-te",
 	"Subscribe to {blogtitle}": "Înscrie-te la {blogtitle}",
 	"Subscribed!": "Te-ai înscris!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Citește ultimele articole livrate direct în inbox-ul tău",
 	"Go to the front page": "Go to the front page",
 	"Latest Posts": "Ultimele Articole",
-	"Message:": "Message:",
+	"Message:": "Mesaj:",
 	"<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Mai multe articole</a> de {name}",
 	"No posts": "Nu există articole",
 	"Read <a href='{url}'>more posts</a> by this author": "Citește <a href='{url}'>mai multe articole</a> de acest autor",

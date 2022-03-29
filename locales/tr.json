@@ -1,4 +1,5 @@
 {
+	"Account": "Hesap",
 	"Subscribe":"Abone Ol",
 	"Subscribe to {blogtitle}":"{blogtitle} abone ol",
 	"Subscribed!":"Abone olundu!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox":"Son paylaşılan içerikler gelen kutuna gelsin",
 	"Go to the front page":"Anasayfaya git",
 	"Latest Posts":"Son Yazılar",
-	"Message:":"Mesaj:",
+	"Message:":"İleti:",
 	"<a href='{url}'>More posts</a> by {name}":"{name} tarafından <a href='{url}'>daha fazla içerik</a> ",
 	"No posts":"İçerik Yok",
 	"Read <a href='{url}'>more posts</a> by this author":"Bu yazarın <a href='{url}'>diğer yazılarını oku</a>",

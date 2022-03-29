@@ -1,4 +1,5 @@
 {
+	"Account": "fiók",
 	"Subscribe": "Feliratkozás",
 	"Subscribe to {blogtitle}": "Iratkozz fel a {blogtitle}re",
 	"Subscribed!": "Feliratkozva!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Olvasd a legfrissebb cikkeket egyenesen a virtuális postaládádból",
 	"Go to the front page": "Vissza a kezdőlapra",
 	"Latest Posts": "Legfrissebb cikkek",
-	"Message:": "Message:",
+	"Message:": "Üzenet:",
 	"<a href='{url}'>More posts</a> by {name}": "{name} <a href='{url}'>többi cikkei</a>",
 	"No posts": "Nincsenek cikkek",
 	"Read <a href='{url}'>more posts</a> by this author": "Olvass <a href='{url}'>többet</a> tőle",

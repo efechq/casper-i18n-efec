@@ -1,4 +1,5 @@
 {
+	"Account": "Compte",
 	"Subscribe": "S’abonner",
 	"Subscribe to {blogtitle}": "S’abonner à {blogtitle}",
 	"Subscribed!": "Abonné !",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Recevez les derniers articles directement dans votre boîte aux lettres.",
 	"Go to the front page": "Aller sur la page d’accueil",
 	"Latest Posts": "Derniers articles",
-	"Message:": "Message :",
+	"Message:": "Message:",
 	"<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Plus d’articles</a> par {name}",
 	"No posts": "Aucun article",
 	"Read <a href='{url}'>more posts</a> by this author": "Lire <a href='{url}'>plus d’articles</a> de cet auteur",

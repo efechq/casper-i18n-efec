@@ -1,4 +1,5 @@
 {
+	"Account": "Tili",
 	"Subscribe": "Tilaa",
 	"Subscribe to {blogtitle}": "Tilaa blogi {blogtitle}",
 	"Subscribed!": "Tilaus tehty!",
@@ -8,7 +9,7 @@
 	"Get the latest posts delivered right to your inbox": "Tilaa uusimmat artikkelit suoraan sähköpostiisi",
 	"Go to the front page": "Go to the front page",
 	"Latest Posts": "Uusimmat artikkelit",
-	"Message:": "Message:",
+	"Message:": "Viesti:",
 	"<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Muita artikkeleja </a> kirjoittajalta {name}",
 	"No posts": "Ei artikkeleita",
 	"Read <a href='{url}'>more posts</a> by this author": "Lue tämän kirjoittajan <a href='{url}'>muita artikkeleja</a>",
