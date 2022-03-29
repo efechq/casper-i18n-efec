@@ -15,6 +15,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions"
+        git config --local pull.rebase false
     - name: Add upstream repo
       run: git remote add upstream https://github.com/TryGhost/Casper.git
     - name: Checkout master
