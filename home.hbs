@@ -1,0 +1,69 @@
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+
+<div class="site-header-content outer{{#match @custom.header_style "Left aligned"}} left-aligned{{/match}}{{#unless @custom.show_publication_cover}}{{#match @custom.header_style "Hidden"}} no-content{{/match}}{{/unless}}">
+
+    {{#if @custom.show_publication_cover}}
+        {{#if @site.cover_image}}
+            {{!-- This is a responsive image, it loads different sizes depending on device
+            https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
+            <img class="site-header-cover"
+                srcset="{{img_url @site.cover_image size="s"}} 300w,
+                        {{img_url @site.cover_image size="m"}} 600w,
+                        {{img_url @site.cover_image size="l"}} 1000w,
+                        {{img_url @site.cover_image size="xl"}} 2000w"
+                sizes="100vw"
+                src="{{img_url @site.cover_image size="xl"}}"
+                alt="{{@site.title}}"
+            />
+        {{/if}}
+    {{/if}}
+
+    {{#match @custom.header_style "!=" "Hidden"}}
+        <div class="site-header-inner inner">
+            {{#match @custom.navigation_layout "Logo on cover"}}
+                {{#if @site.logo}}
+                    <img class="site-logo" src="{{@site.logo}}" alt="{{@site.title}}">
+                {{else}}
+                    <h1 class="site-title">{{@site.title}}</h1>
+                {{/if}}
+            {{/match}}
+            {{#if @site.description}}
+                <p class="site-description">{{@site.description}}</p>
+            {{/if}}
+        </div>
+    {{/match}}
+
+</div>
+
+{{!-- The main content area --}}
+<main id="site-main" class="site-main outer">
+<div class="inner posts">
+    <section class="gh-content gh-canvas">
+        <br/>
+        <br/>
+        <p>Wir sind spezialisiert auf die Einführung von KI-Lösungen für Unternehmen, um ihren Geschäftsprozess optimal zu unterstützen.<br><br>Wir unterstützen unsere Kunden durch <strong>Wissenstransfer</strong>, <strong>Beratung</strong> und <strong>Entwicklung</strong>.</p>
+<p>Künstliche Intelligenz (KI) bietet Unternehmen zahlreiche<strong> Vorteile wie Effizienzsteigerung, Zeit- und Kostenersparnis, Automatisierung von Aufgaben und Unterstützung bei wichtigen Entscheidungen.</strong> Es ist wichtig, dass Unternehmen die Möglichkeiten von KI nutzen, um ihre Geschäftsprozesse zu optimieren und ihre Ziele zu erreichen.</p>
+<p>Der <strong>Einstieg in die Welt der KI</strong> im Bereich <strong>B2B</strong> kann aufgrund der schieren Menge an Informationen und Veröffentlichungen auf diesem Gebiet eine Herausforderung darstellen. Mit rund <strong>2.000 Veröffentlichungen jeden Tag</strong> allein im Bereich KI kann es schwierig sein, zu entscheiden, was wirklich wichtig ist und was man lesen sollte.</p>
+<h3 id="unser-angebot">Unser Angebot</h3>
+<p>Im Bereich Künstliche Intelligenz unterstützen wir unsere Kunden auf vielfältige Weise. Wir analysieren bestehende KI-Systeme und Anwendungen, um ein besseres Verständnis für die zugrundeliegenden Prozesse zu erlangen. Darüber hinaus bieten wir Beratung und Machbarkeitsanalysen an, um sicherzustellen, dass unsere Kunden die besten KI-Lösungen für ihre spezifischen Anforderungen erhalten.</p>
+<p>Unsere Experten arbeiten eng mit unseren Kunden zusammen, um maßgeschneiderte KI-Lösungen zu entwickeln, die auf ihre einzigartigen Bedürfnisse zugeschnitten sind. Wir helfen auch bei der Erweiterung und dem Aufbau von KI-unterstützten Geschäftsprozessen, um sicherzustellen, dass unsere Kunden von den Vorteilen der Künstlichen Intelligenz profitieren können.</p>
+<p><strong>Wir bieten im Einzelnen:</strong></p>
+<ul><li><strong>Workshops</strong>: Wir helfen unseren Kunden, das notwendige strategische und operative Know-how aufzubauen.</li><li><strong>Beratung</strong>: Die Anforderungen aus der Praxis sind nicht immer einfach zu beantworten. Wir unterstützen unsere Kunden dabei, die richtigen Antworten auf ihre Herausforderungen zu finden.</li><li><strong>Software-Entwicklung</strong>: Wir helfen unseren Kunden, die Lösung zu implementieren und die richtige Umgebung auszuwählen. Insbesondere auch im Hinblick auf Datenschutzanforderungen.</li></ul>
+    </section>
+
+<h2>Inhalte aus unserem AI Context Bereich</h2>
+        <br/>
+    <div class="post-feed">
+        
+        {{#foreach posts}}
+            {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+            {{> "post-card"}}
+        {{/foreach}}
+    </div>
+
+    {{pagination}}
+
+</div>
+</main>
