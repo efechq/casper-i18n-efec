@@ -19,6 +19,11 @@ collections:
     permalink: /{slug}/
     template: index
 
+  /aicontext/:
+    permalink: /aicontext/{slug}/
+    template: aicontext
+    filter: tag:aiconrext
+
 taxonomies:
   tag: /tag/{slug}/
   author: /author/{slug}/
