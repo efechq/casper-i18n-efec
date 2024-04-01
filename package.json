@@ -175,5 +175,8 @@
     "extends": [
       "@tryghost:theme"
     ]
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }
